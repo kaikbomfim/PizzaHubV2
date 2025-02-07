@@ -35,7 +35,7 @@ Para rodar o **PizzaHubV2** localmente, siga os passos abaixo:
 
    ```bash
    const URL_PIZZA = "http://SEU_IP_AQUI:3000/pizza"
-   const URL_COMENTARIO = "http://SEU_IP_AQUI:3000/comment";
+   const URL_COMENTARIO = "http://SEU_IP_AQUI:3000/comment"
    const URL_IMAGEM = "http://SEU_IP_AQUI:5005"
    ```
 
