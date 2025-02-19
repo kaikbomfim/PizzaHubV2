@@ -14,7 +14,7 @@ class Menu extends StatefulWidget {
   }
 }
 
-const int pageSize = 4;
+const int pageSize = 20;
 
 class _MenuState extends State<Menu> {
   List<dynamic> _pizzas = [];

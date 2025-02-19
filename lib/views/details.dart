@@ -1,6 +1,7 @@
 import 'package:pizzahub/state.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_share/flutter_share.dart';
+// import 'package:flutter_share/flutter_share.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:intl/intl.dart';
 import 'package:page_view_dot_indicator/page_view_dot_indicator.dart';
 import 'package:toast/toast.dart';
@@ -306,7 +307,8 @@ class _DetailsState extends State<Details> {
                         onPressed: () {
                           final texto =
                               '${_pizza["name"]} por R\$ ${_pizza["price"].toString()} disponível na Pizza Hub.';
-                          FlutterShare.share(title: "PizzaHub", text: texto);
+                          Share.share(texto);
+                          // FlutterShare.share(title: "PizzaHub", text: texto);
                         },
                         icon: const Icon(Icons.share),
                         color: Colors.orange,
